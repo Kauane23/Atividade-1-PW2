@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LIVRARIA KIM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="mensagem-carrinho" class="mensagem-oculta">Livro adicionado ao carrinho!</div>
+  <div id="mensagem-carrinho-retirar" class="mensagem-oculta">Livro retirado do carrinho!</div>
+  
+  <header>
+    <nav class="menu">
+      <ul id="menu-h">
+        <li><a href="#">Início</a></li>
+        <li><a href="#destaques">Destaques</a></li>        
+      </ul>
+      <div class="pesquisa">
+        <input type="text" id="campo-busca" placeholder="Pesquisar livro...">
+      </div>
+      <div class="carrinho">
+        <span>Carrinho: </span>
+        <span id="contador-carrinho">0</span>
+      </div>
+
+      <button id="btn-tema">Alternar Tema</button>
+    </nav>
+  </header>
+
+  <main>
+    <div class="banner">
+       <h1>BEM-VINDO À LIVRARIA!</h1>
+      <p>Encontre os melhores livros com os melhores descontos </p>
+    </div>
+    <section id="destaques" class="Livros-em-destaque">
+      <h2>APROVEITE AS NOSSAS OFERTAS PARA OS MELHORES LIVROS</h2>
+      
+      <div class="container-cards">
+        <article class="card">
+          <img src="/img/clarice.jpg" alt="Capa do livro A hora da estrela">
+          <h3>A Hora da Estrela</h3>
+          <p class="autor">Clarice Lispector</p>
+          <p class="preco">R$ 44,90</p>
+          <button class="btn-carrinho">Adicionar ao Carrinho</button>
+          <button class="btn-carrinho-retirar">Retirar do Carrinho</button>
+        </article>
+
+        <article class="card">
+          <img src="/img/domcasmurro.jpg" alt="Capa do livro Dom Casmurro">
+          <h3>Dom Casmurro</h3>
+          <p class="autor">Machado de Assis</p>
+          <p class="preco">R$ 20,00</p>
+          <button class="btn-carrinho">Adicionar ao Carrinho</button>
+          <button class="btn-carrinho-retirar">Retirar do Carrinho</button>
+        </article>
+       
+        <article class="card">
+          <img src="/img/mamorias.jpg" alt="Capa do livro Memórias Póstumas de Brás Cubas">
+          <h3>Memórias Póstumas de Brás Cubas</h3>
+          <p class="autor">Machado de Assis</p>
+          <p class="preco">R$ 50,00</p>
+          <button class="btn-carrinho">Adicionar ao Carrinho</button>
+          <button class="btn-carrinho-retirar">Retirar do Carrinho</button>
+        </article>
+
+        <article class="card">
+          <img src="/img/vidassecas.jpg" alt="Capa do livro Vidas Secas">
+          <h3>Vidas Secas</h3>
+          <p class="autor">Graciliano Ramos</p>
+          <p class="preco">R$ 50,00</p>
+          <button class="btn-carrinho">Adicionar ao Carrinho</button>
+          <button class="btn-carrinho-retirar">Retirar do Carrinho</button>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Livraria Dev - Todos os direitos reservados.</p>
+    <p>Contato: contato@livrariadev.com</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
