@@ -37,7 +37,7 @@ botoesCarrinhoRetirar.forEach((botao) => {
   });
 });
 
-// Pesquisa dinâmica de livros
+// Pesquisa de livros
 const campoBusca = document.getElementById("campo-busca");
 const cardsLivros = document.querySelectorAll(".card");
 
@@ -56,7 +56,7 @@ campoBusca.addEventListener("input", () => {
   });
 });
 
-// Alternância entre Tema Claro e Escuro
+// Tema Claro e Escuro
 const btnTema = document.getElementById("btn-tema");
 
 btnTema.addEventListener("click", () => {
